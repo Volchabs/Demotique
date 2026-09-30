@@ -6,3 +6,6 @@ edition = "2024"
 [dependencies]
 chrono = "0.4.45"
 mp4 = "0.14.0"
+
+[target.'cfg(windows)'.dependencies]
+windows-capture = "2"
